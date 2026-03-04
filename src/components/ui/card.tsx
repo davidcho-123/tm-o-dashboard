@@ -1,0 +1,3 @@
+import React from 'react';
+
+export function Card({children, className='', ...props}: any){return <div {...props} className={'p-0 '+className}>{children}</div>}export function CardHeader({children, className='', ...props}: any){return <div {...props} className={className}>{children}</div>}export function CardContent({children, className='', ...props}: any){return <div {...props} className={className}>{children}</div>}export function CardTitle({children, className='', ...props}: any){return <div {...props} className={className}>{children}</div>}

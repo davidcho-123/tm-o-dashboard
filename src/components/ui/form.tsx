@@ -1,0 +1,3 @@
+import React from 'react';
+
+export const Form = (props:any)=> <form {...props}>{props.children}</form>; export const FormControl=(p:any)=> <div {...p}>{p.children}</div>; export const FormField=(p:any)=> p.render({field:{...p}}); export const FormItem=(p:any)=> <div {...p}>{p.children}</div>; export const FormLabel=(p:any)=> <label {...p}>{p.children}</label>; export const FormMessage=(p:any)=> <div {...p}>{p.children}</div>;

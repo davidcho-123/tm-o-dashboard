@@ -1,0 +1,3 @@
+import React from 'react';
+
+export const Select = ({children, onValueChange, defaultValue}: any)=> <select defaultValue={defaultValue} onChange={(e)=>onValueChange?.(e.target.value)}>{children}</select>; export const SelectTrigger=(p:any)=> <div {...p}>{p.children}</div>; export const SelectContent=(p:any)=> <div {...p}>{p.children}</div>; export const SelectItem=(p:any)=> <option value={p.value}>{p.children}</option>; export const SelectValue=(p:any)=> <span>{p.children}</span>;
